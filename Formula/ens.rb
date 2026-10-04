@@ -10,7 +10,7 @@ class Ens < Formula
   sha256 "318a84800e6e3e43eceffd0536e1ee429145370fdfe3420bcbcb1d424e7e7963"
 
   def install
-    bin "ens"
+    bin.install "ens"
   end
 
   # Opening a TUN needs root, so the test stays on the one command that does
