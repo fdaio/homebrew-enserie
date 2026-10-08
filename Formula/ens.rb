@@ -5,8 +5,8 @@
 class Ens < Formula
   desc "P2P overlay network: QUIC first, relay as fallback"
   homepage "https://github.com/fdaio/enserie"
-  url "https://github.com/fdaio/enserie/releases/download/v0.2.11/ens-darwin-arm64.tar.gz"
-  sha256 "29e536f234fb7218fbcdb04db8f1683b6df807e601ea74b1a9a5068067b88b2e"
+  url "https://github.com/fdaio/enserie/releases/download/v0.2.15/ens-darwin-arm64.tar.gz"
+  sha256 "94d51d7a3481675f4653420baf749439c7a4f2526b56b789bd3f7acf83928311"
 
   def install
     bin.install "ens"
