@@ -5,8 +5,31 @@
 class Ens < Formula
   desc "P2P overlay network: QUIC first, relay as fallback"
   homepage "https://github.com/fdaio/enserie"
-  url "https://github.com/fdaio/enserie/releases/download/v0.2.15/ens-darwin-arm64.tar.gz"
-  sha256 "94d51d7a3481675f4653420baf749439c7a4f2526b56b789bd3f7acf83928311"
+  version "0.2.16"
+
+  on_macos do
+    on_arm do
+      url "https://github.com/fdaio/enserie/releases/download/v0.2.16/ens-darwin-arm64.tar.gz"
+      sha256 "f93868924ad1b5dad793c20951abb823f4fbbff8752a661ab2068275ac2923f5"
+    end
+
+    on_intel do
+      url "https://github.com/fdaio/enserie/releases/download/v0.2.16/ens-darwin-amd64.tar.gz"
+      sha256 "8d3680fcfd139b435c9b174920c83a2d39803955269697b5aeff429b791d2dab"
+    end
+  end
+
+  on_linux do
+    on_arm do
+      url "https://github.com/fdaio/enserie/releases/download/v0.2.16/ens-linux-arm64.tar.gz"
+      sha256 "01a2f15537eff23a0ddf89f063a0440565e9a2422d824d005b828e401a0df4f2"
+    end
+
+    on_intel do
+      url "https://github.com/fdaio/enserie/releases/download/v0.2.16/ens-linux-amd64.tar.gz"
+      sha256 "75344b175a30f269633c6ddb527c21bc2dc7e02ea564b6efe34703d6439e4345"
+    end
+  end
 
   def install
     bin.install "ens"
