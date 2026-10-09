@@ -5,29 +5,29 @@
 class Ens < Formula
   desc "P2P overlay network: QUIC first, relay as fallback"
   homepage "https://github.com/fdaio/enserie"
-  version "0.2.17"
+  version "0.2.18"
 
   on_macos do
     on_arm do
-      url "https://github.com/fdaio/enserie/releases/download/v0.2.17/ens-darwin-arm64.tar.gz"
-      sha256 "2877e172bd75ba88a57cdd24f55d1c10dd36fe5adda5b260441528fa674ff4be"
+      url "https://github.com/fdaio/enserie/releases/download/v0.2.18/ens-darwin-arm64.tar.gz"
+      sha256 "a3c23e2619c18cf2b153fbe68b6fede6b0b040f53058624ef5725cdd1c3cbb8e"
     end
 
     on_intel do
-      url "https://github.com/fdaio/enserie/releases/download/v0.2.17/ens-darwin-amd64.tar.gz"
-      sha256 "a954e56269262a15712ad1283d7499ea292804f0eb6ba1ebd2cd561d62ce4833"
+      url "https://github.com/fdaio/enserie/releases/download/v0.2.18/ens-darwin-amd64.tar.gz"
+      sha256 "99b3b7e952f3373c21bbda69fb804f52e910c1b91c236b6278b31a6a73f1daf9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/fdaio/enserie/releases/download/v0.2.17/ens-linux-arm64.tar.gz"
-      sha256 "5f7deb64f4ee51eb3c012b78fb3f63f1f8102f6f0f7ec560917d98a676282f1f"
+      url "https://github.com/fdaio/enserie/releases/download/v0.2.18/ens-linux-arm64.tar.gz"
+      sha256 "314df78f39ceb1748241365a4c194b2f958d1f798fe38847d8044224f71c0be1"
     end
 
     on_intel do
-      url "https://github.com/fdaio/enserie/releases/download/v0.2.17/ens-linux-amd64.tar.gz"
-      sha256 "4ab3d4e657501db08097ac99830337a06af0e05d9c9da3748a091157e641b415"
+      url "https://github.com/fdaio/enserie/releases/download/v0.2.18/ens-linux-amd64.tar.gz"
+      sha256 "965c3849ad04b07f9a153e7d665b6c34d4a6fc091181fc017256a25c6f6379de"
     end
   end
 
